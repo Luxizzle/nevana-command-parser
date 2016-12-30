@@ -29,7 +29,7 @@ class CommandParser {
                 optional: true
             })
             .callback(function(out, msg, params) {
-                if ( params[0]&& out._parser.getCommand(params[0].raw) ) {
+                if ( params[0] && out._parser.getCommand(params[0].raw) ) {
                     var name = params[0].raw
                     var cmd = out._parser.getCommand(name)
                     
