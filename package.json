@@ -1,0 +1,16 @@
+{
+  "name": "discord-commands",
+  "version": "1.0.0",
+  "description": "A command parser for discord",
+  "main": "CommandParser.js",
+  "scripts": {
+    "test-params": "DEBUG=test,parser-* node tests/params.js",
+    "test-commands": "DEBUG=test,parser-* node tests/commands.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.6.0",
+    "emoji-regex": "^6.1.0"
+  }
+}

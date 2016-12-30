@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "debug": "^2.6.0",
+    "discordie": "^0.10.0"
+  }
+}
