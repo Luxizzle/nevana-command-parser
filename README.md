@@ -1,3 +1,3 @@
 # nevana-command-parser
 
-A very messy command parser for nevana
+A command parser for nevana
